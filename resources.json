@@ -1,0 +1,43 @@
+
+{
+    "slots" : {
+        "slot1" : {
+            "name" : "Slot 1",
+            "sensors" : {
+                "ultrasonic" : {
+                    "trigger" : 5,
+                    "echo" : 6
+                },
+                "pir" : {
+                    "pin" : 17
+                }
+            },
+            "actuators" : {
+               "leds" : {
+                   "red" : 2,
+                   "green" : 4
+               }
+            }
+        },
+
+        "slot2" : {
+            "name" : "Slot 2",
+            "sensors" : {
+                "ultrasonic" : {
+                    "trigger" : 13,
+                    "echo" : 16
+                },
+                "pir" : {
+                    "pin" : 25
+                }
+            },
+            "actuators" : {
+               "leds" : {
+                   "red" : 12,
+                   "green" : 19
+               }
+            }
+        }
+
+}
+}
